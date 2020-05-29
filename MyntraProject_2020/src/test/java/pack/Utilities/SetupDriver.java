@@ -39,7 +39,7 @@ public class SetupDriver {
 	  
 	  
 	  public static void tearDownChromeDriver() {
-		  chromeDriver.quit();
+		//  chromeDriver.quit();
 		  }
 	 
 

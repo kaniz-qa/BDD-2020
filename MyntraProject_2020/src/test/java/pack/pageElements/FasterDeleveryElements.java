@@ -14,6 +14,7 @@ public class FasterDeleveryElements {
 	@FindBy(xpath = "//a[contains(text(),'Haircare')]")
 	public WebElement haircareSubmenu;
 	
+		
 	@FindBy(xpath = "//div[@class='sort-sortBy']")
 	public WebElement sortBy;
 	

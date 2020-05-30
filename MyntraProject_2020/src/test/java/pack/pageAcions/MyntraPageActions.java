@@ -49,14 +49,15 @@ public class MyntraPageActions {
 
 	}
 
-	public void imageLink() {
+	public void imageLink() throws Throwable {
 		searchElements.firstImage.click();
 
+		//Thread.sleep(3000);
 		for (String winHandle : SetupDriver.chromeDriver.getWindowHandles()) {
 			SetupDriver.chromeDriver.switchTo().window(winHandle);
 		}
 		// searchElements.newPage.sendKeys(Keys.CONTROL +"\t");
-
+		Thread.sleep(3000);
 	}
 
 	// System.out.println("----------new page-----------");

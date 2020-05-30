@@ -15,4 +15,8 @@ public class ContactElements {
 	
 	@FindBy(xpath = "//div[@class='dheader-headerText']")
 	public WebElement helpText;
+	
+	@FindBy(xpath = "//div[@class='page-component2']")
+	public WebElement helpTextScreenshot;
+	
 }

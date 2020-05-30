@@ -1,8 +1,12 @@
 package pack.pageAcions;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 
 import pack.Utilities.SetupDriver;
@@ -42,6 +46,26 @@ public class ContactActions {
 		
 		contactElements.contactUs.click();
 		Thread.sleep(3000);
+		
+		
+		//TakesScreenshot ts = (TakesScreenshot)SetupDriver.chromeDriver;
+		
+		File src = contactElements.helpTextScreenshot.getScreenshotAs(OutputType.FILE);
+		File trgs = new File("ContactUs.png");
+		FileUtils.copyFile(src, trgs);
+		
+
+		Thread.sleep(3000);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 	public String helpText() throws Throwable {

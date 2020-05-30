@@ -28,13 +28,13 @@ public class CategoryArrayActions {
 		System.out.println("Total category : "+categoryArrEle.sweatshirt.size());
 		
 		categoryArrEle.sweatshirt.get(2).click();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		categoryArrEle.sweatshirt.get(1).click();		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		categoryArrEle.sweatshirt.get(5).click();		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		categoryArrEle.sweatshirt.get(0).click();		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 	}
 		
 	

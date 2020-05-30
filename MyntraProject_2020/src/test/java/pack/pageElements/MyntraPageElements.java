@@ -15,15 +15,15 @@ public class MyntraPageElements {
 	public WebElement searchItemDisplay;
 	
 	
-	
+	// image path
 	@FindBy(xpath = "//li[9]//a[1]//div[1]//div[1]//div[1]//div[1]//picture[1]//img[1]")
 	public WebElement firstImage;
 	//li[1]//a[1]//div[1]//div[1]//div[1]//div[1]//picture[1]//img[1]
 	
 	
-		
-	@FindBy(xpath = "//*[@id=\"desktopSearchResults\"]/div[2]/section/ul/li[1]/a")
-	public WebElement newPage;
+	// after click on image target-blank = this page (page path )	
+	//@FindBy(xpath = "//*[@id=\"desktopSearchResults\"]/div[2]/section/ul/li[1]/a")
+	//public WebElement newPage;
 		
 	//@FindBy(xpath ="//button[@class='size-buttons-show-size-chart']")
 	//public WebElement size;
